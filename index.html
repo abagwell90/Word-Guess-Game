@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Andrew J Bagwell word guess game - Willy Wonka</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
+
+	<link rel="stylesheet" href="./assets/reset.css">
+	<link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+	<div class="container-fluid">
+		<div class="row" id="myheader">
+			<div class="col-md-12">
+				<h1>Do you know the Willy Wonka Character?</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12" id="content">
+				<div class="row">
+					<div class="col-md-12">
+						<h4> This is a version of hangman in the theme of Willy Wonka! To play the game, type a letter on your keyboard
+							to
+							guess a letter. If you guessed right it will fill in the blank. You only have 15 guesses total, every quess
+							counts!
+							If you win the game you recieve the golden ticket and hear a little song!</h4>
+
+						<h2>Guess Wisely, You get one clue of the photo of character!</h2>
+						<h3> “However small the chance might be of striking lucky, the chance was there.” - Roald Dahl, Willy Wonka</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6" id="whiteinfo">
+
+						<div class="card">
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">
+									<p id="game"></p>
+								</li>
+								<li class="list-group-item">
+									<p id="guessesCount"></p>
+								</li>
+								<li class="list-group-item">
+									<p id="userChoice"></p>
+								</li>
+								<li class="list-group-item">
+									<p id="lossesCount"></p>
+								</li>
+								<li class="list-group-item">
+									<p id="winsCount"></p>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+
+					<div class="col-md-6" id="ticket">
+						<div id="myImg"></div>
+					</div>
+
+					<div class="col-md-12" id="ticket">
+
+						<p id="goldenTicket"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+	<br>
+
+	<footer>
+		Andrew J Bagwell's Game
+		<footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<audio id="winnerSong">
+				<source src="assets/music/bensound-littleidea.mp3">
+			</audio>
+
+			<script src="./assets/javascript/game.js">
+			</script>
+
+
+
+
+
+</body>
+
+</html>

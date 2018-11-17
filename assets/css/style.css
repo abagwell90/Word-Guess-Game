@@ -1,0 +1,63 @@
+#content {
+    
+    background-image: url("../images/candy4.jpg");
+    
+}
+
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    color: pink;
+    text-align: center;
+    padding-top: .5em;
+     padding-bottom: .5em;
+}
+
+h2 {
+   font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+ padding-top: .5em;
+     padding-bottom: .5em;
+    text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+}
+
+h4, h3 {
+ color: black;
+    text-align: center;
+  
+    text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+   padding-top: .5em;
+     padding-bottom: .5em;
+}
+
+
+#whiteinfo {
+  padding-bottom: 2em;
+  float: right;
+  text-align: center;
+}
+
+#myImg {
+  height: 20 px;
+  width: 20 px;
+  padding: 10 px;
+} 
+
+#ticket {
+  height: 20 px;
+  width: 20 px;
+  padding: 10 px;
+} 
+
+
+footer {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    color: pink;
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+}
